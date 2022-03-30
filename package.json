@@ -1,0 +1,22 @@
+{
+  "name": "untrl",
+  "version": "1.0.0",
+  "description": "O Melhor serviço de streaming de filmes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre M. Cordeiro",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.8.0",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "prisma": "^3.8.0"
+  },
+  "keywords": []
+}

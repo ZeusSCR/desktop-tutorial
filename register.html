@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>UNTRL - Registro</title>
+        <link rel="stylesheet" type="text/css" href="/css/register.css">
+    </head>
+
+    <body>
+
+        <div id="container-body_register">
+            <h1 id="_body-register_h1">PASSO 1 DE 3</h1>
+            <h1 id="_body-register_h2">Escolha agora seu plano na UNTRL</h1>
+            <h1 id="_body-register_h3">Crie sua conta</h1>
+
+            <div id="_body-register_plano1">
+                <h1 id="_body-register-plano1_h1">Padrão</h1>
+                <h1 id="_body-register-plano1_h2">R$ 14,90</h1>
+                <h1 id="_body-register-plano1_h3">/mês</h1>
+                <h1 id="_body-register-plano1_h4">+ Assista a todos os filmes sem limitações</h1>
+                <h1 id="_body-register-plano1_h5">+ Qualidade HD</h1>
+                <h1 id="_body-register-plano1_h6">+ Até 2 telas ao mesmo tempo</h1>
+                <h1 id="_body-register-plano1_h7">+ Baixe séries e filmes para assistir offline</h1>
+                <div id="_body-register-plano1_line"></div>
+                <h1 id="_body-register-plano1_h8">🖥️ 📱 Todos os dispositivos</h1>
+
+                <button id="register_plano" onclick="registerPlano(1)" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; font-size: 105%; letter-spacing: 1.5px;">QUERO ESTE PLANO</button>
+            </div>
+
+            <div id="_body-register_plano2">
+                <h1 id="_body-register-plano1_h1">Premium</h1>
+                <h1 id="_body-register-plano1_h2">R$ 27,90</h1>
+                <h1 id="_body-register-plano1_h3">/mês</h1>
+                <h1 id="_body-register-plano1_h4">+ Assista a todos os filmes sem limitações</h1>
+                <h1 id="_body-register-plano1_h5">+ Qualidade HD/4K</h1>
+                <h1 id="_body-register-plano1_h6">+ Até 4 telas ao mesmo tempo</h1>
+                <h1 id="_body-register-plano1_h7">+ Baixe séries e filmes para assistir offline</h1>
+                <div id="_body-register-plano1_line"></div>
+                <h1 id="_body-register-plano1_h8">🖥️ 📱 Todos os dispositivos</h1>
+
+                <button id="register_plano" onclick="registerPlano(2)" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; font-size: 105%; letter-spacing: 1.5px;">QUERO ESTE PLANO</button>
+            </div>
+
+        </div>
+
+        <div id="container-body_register2">
+            <form action="/confirm-register" method="POST">
+                <input type="text" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 140%;" id="post_name" name="nome" autocomplete="off" placeholder="Nome">
+                <input type="text" style="color:white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 140%;" id="post_nome2" name="sobrenome" autocomplete="off" placeholder="Sobrenome">
+                <input type="email" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 140%;" id="post_email" name="email" autocomplete="off" placeholder="Endereço de email">
+                <input type="password" style="color: white; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 140%;" id="post_senha" name="senha" placeholder="Senha">
+
+                <div id="_body-register2_box"></div>
+                <h1 id="_body-register2_h1">Ao clicar em Criar conta, você confirma que você tem pelo menos 18 anos, que concorda com os Termos de <br> Uso e que leu nossa Política de Privacidade. Você também confirma que aceita receber publicidade, <br> promoções e outras ofertas da UNTRL e de suas afiliadas por e-mail, redes sociais e outros canais. Caso <br> você crie um Perfil infantil, você concorda com o tratamento das informações pessoais coletadas por meio <br> desse perfil conforme descrito na Política de Privacidade, caso esse consentimento seja necessário no local <br> onde você reside.</h1>
+                <button type="submit" id="post_button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600; font-size: 110%;">CRIAR CONTA</button>    
+        </form>
+    </div>
+
+
+        <div id="nav-bar">
+            <button id="nav-untrl" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; font-size: 170%;" onclick="location.href = '/home';">UNTRL</button>
+            <button id="nav-login" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 500; font-size: 90%;">ENTRAR</button>
+        </div>
+
+        <script src="/src/scripts/registerPlano.js" type="text/javascript"></script>
+
+    </body>
+</html>
